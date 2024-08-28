@@ -1,0 +1,1 @@
+<view><button bindtouchstart="{{a}}" bindtouchend="{{b}}" form-type="submit" type="primary" class="fc-white">语音识别按钮</button> 语音识别内容：{{c}}</view>

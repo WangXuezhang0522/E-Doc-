@@ -1,0 +1,68 @@
+
+.overall{
+		 background-color: #f8f8f8;
+}
+	/* 轮播图 */
+.banner,
+	.banner image {
+		height: 360rpx;
+		width: 700rpx;
+		margin: auto;
+		border-radius: 16rpx;
+		background-size: contain;
+}
+.wrapper{
+	  width: 92%;
+	  margin: 0 auto;
+	  height: 1600rpx;
+	  background-color: #ffffff;
+}
+.wrapper .box:nth-child(1){
+	  border-top: 4rpx solid #e7e7e7;
+}
+.wrapper .box:nth-child(1) .left{
+	  margin-top: 20rpx;
+}
+.wrapper .box:nth-child(1) .right{
+	margin-top: 20rpx;
+}
+.wrapper .box{
+	  display: flex;
+	  width: 100%;
+	  margin: 20rpx auto;
+	  height: 200rpx;
+	  border-bottom: 2px solid #e7e7e7;
+}
+.wrapper .box .left{
+	  margin-top: 12rpx;
+	  margin-left: 24rpx;
+}
+.wrapper .box .left image{
+	  height: 160rpx;
+	  width:  200rpx;
+}
+.wrapper .box .right{
+	  margin-top: 12rpx;
+	  height: 100%;
+	  margin-left: 24rpx;
+}
+.wrapper .box .right .h1{
+	  font-size: 28rpx;
+	  margin-top: 12rpx;
+	  font-weight: 550;
+}
+.wrapper .box .right .p{
+	  margin-top: 64rpx;
+	  font-size: 24rpx;
+	  color: #848484;
+}
+.more{
+  	height: 32rpx;
+  	width: 100%;
+}
+.more .p{
+  	width: 50%;
+  	margin: 20rpx auto;
+  	text-align: center;
+  	font-size: 24rpx;
+}

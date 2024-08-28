@@ -1,0 +1,21 @@
+
+.health{
+	margin-top: 8rpx;
+	background-color: rgba(255, 170, 0, 0.1);
+}
+.top{
+	font-size: 30rpx;
+	margin-right: 12rpx;
+	font-style: italic;
+	letter-spacing: 1rpx;
+}
+.ul{
+	margin-top: 8rpx;
+	border-bottom: 2rpx solid rgba(68, 68, 68, 0.2);
+	border-top: 2rpx solid rgba(68, 68, 68, 0.2);
+}
+.ul .li{
+	height: 60rpx;
+	margin-top: 4rpx;
+}
+

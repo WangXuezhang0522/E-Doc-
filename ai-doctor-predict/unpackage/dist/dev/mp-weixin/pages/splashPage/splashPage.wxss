@@ -1,0 +1,28 @@
+
+.main{
+		position: relative;
+}
+.container {
+	height: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: linear-gradient(to bottom, rgba(0, 170, 255, 0.2),rgba(255,255,255,1));
+}
+.avatar {
+  width: 200rpx;
+  height: 200rpx;
+  margin-top: 160rpx;
+}
+.motto {
+  margin-top: 100rpx;
+  font-size: 32rpx;
+  font-weight: bold;
+}
+.searchLoad {
+		position: absolute;
+		z-index: 99;
+		top: 38%;
+		left: 44%;
+}
+	

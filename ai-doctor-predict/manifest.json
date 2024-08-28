@@ -1,0 +1,124 @@
+{
+    "name" : "e-Doc",
+    "appid" : "__UNI__A1A6431",
+    "description" : "",
+    "versionName" : "1.0.0",
+    "versionCode" : "100",
+    "transformPx" : false,
+    /* 5+App特有相关 */
+    "app-plus" : {
+        "usingComponents" : true,
+        "nvueStyleCompiler" : "uni-app",
+        "compilerVersion" : 3,
+        "splashscreen" : {
+            "alwaysShowBeforeRender" : true,
+            "waiting" : true,
+            "autoclose" : true,
+            "delay" : 0
+        },
+        /* 模块配置 */
+        "modules" : {
+            "Speech" : {},
+            "Camera" : {}
+        },
+        /* 应用发布信息 */
+        "distribute" : {
+            /* android打包配置 */
+            "android" : {
+                "permissions" : [
+                    "<uses-feature android:name=\"android.hardware.camera\"/>",
+                    "<uses-feature android:name=\"android.hardware.camera.autofocus\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_WIFI_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.CAMERA\"/>",
+                    "<uses-permission android:name=\"android.permission.CHANGE_NETWORK_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.CHANGE_WIFI_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.FLASHLIGHT\"/>",
+                    "<uses-permission android:name=\"android.permission.GET_ACCOUNTS\"/>",
+                    "<uses-permission android:name=\"android.permission.INTERNET\"/>",
+                    "<uses-permission android:name=\"android.permission.MOUNT_UNMOUNT_FILESYSTEMS\"/>",
+                    "<uses-permission android:name=\"android.permission.READ_LOGS\"/>",
+                    "<uses-permission android:name=\"android.permission.READ_PHONE_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.VIBRATE\"/>",
+                    "<uses-permission android:name=\"android.permission.WAKE_LOCK\"/>",
+                    "<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\"/>",
+                    "<uses-permission android:name=\"android.permission.WRITE_SETTINGS\"/>"
+                ]
+            },
+            /* ios打包配置 */
+            "ios" : {},
+            /* SDK配置 */
+            "sdkConfigs" : {
+                "speech" : {
+                    "baidu" : {
+                        "appid" : "43980626",
+                        "apikey" : "QIGCzytDWf1nEhBhNQOq9iKm",
+                        "secretkey" : "vnT9szaeytWuSiD8NHwT3fsVb2NGalSI"
+                    }
+                },
+                "push" : {}
+            },
+            "splashscreen" : {
+                "androidStyle" : "common",
+                "android" : {
+                    "hdpi" : "",
+                    "xhdpi" : "",
+                    "xxhdpi" : "C:/Users/Hello Wrold/Pictures/Saved Pictures/1.png"
+                },
+                "useOriginalMsgbox" : true
+            }
+        }
+    },
+    /* 快应用特有相关 */
+    "quickapp" : {},
+    /* 小程序特有相关 */
+    "mp-weixin" : {
+        "appid" : "wxb436589abb2ab167",
+        "setting" : {
+            "urlCheck" : false,
+            "ignoreDevUnusedFiles" : false
+        },
+        "usingComponents" : true,
+        "plugins" : {
+            "WechatSI" : {
+                "version" : "0.3.4",
+                "provider" : "wx069ba97219f66d99"
+            }
+        }
+    },
+    "mp-alipay" : {
+        "usingComponents" : true
+    },
+    "mp-baidu" : {
+        "usingComponents" : true
+    },
+    "mp-toutiao" : {
+        "usingComponents" : true
+    },
+    "uniStatistics" : {
+        "enable" : false
+    },
+    "vueVersion" : "3",
+    "AppID" : {
+        "plus" : {
+            "ios" : {
+                "plist" : {
+                    "NSCalendarsUsageDescription" : "允许该应用程序访问日历",
+                    "NSCameraUsageDescription" : "允许该应用程序访问相机",
+                    "NSContactsUsageDescription" : "允许该应用程序访问通讯录",
+                    "NSLocationAlwaysUsageDescription" : "允许该应用程序永久使用您的位置信息",
+                    "NSLocationWhenInUseUsageDescription" : "允许该应用程序在使用期间使用您的位置信息",
+                    "NSMicrophoneUsageDescription" : "允许该应用程序访问麦克风",
+                    "NSPhotoLibraryUsageDescription" : "允许该应用程序访问照片库",
+                    "NSBluetoothPeripheralUsageDescription" : "",
+                    "NSMotionUsageDescription" : "",
+                    "NSRemindersUsageDescription" : "",
+                    "NSHealthShareUsageDescription" : "",
+                    "NSHealthUpdateUsageDescription" : "",
+                    "ITSAppUsesNonExemptEncryption" : "false"
+                }
+            },
+            "android" : {}
+        }
+    }
+}

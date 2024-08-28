@@ -1,0 +1,87 @@
+{
+  "pages": [
+    "pages/splashPage/splashPage",
+    "pages/index/index",
+    "pages/disease/disease",
+    "pages/center/center",
+    "pages/health/health",
+    "pages/predict/predict",
+    "pages/psychology/psychology",
+    "pages/hotSpot/hotSpot",
+    "pages/heart/heart",
+    "pages/voice/voice",
+    "pages/healthRecord/healthRecord",
+    "pages/heartHistory/heartHistory",
+    "pages/predictHistory/predictHistory",
+    "pages/search/search",
+    "pages/login/login",
+    "pages/aboutUs/aboutUs",
+    "pages/searchHistory/searchHistory",
+    "pages/webview/webview",
+    "pages/medicineRemind/medicineRemind",
+    "pages/healthHistory/healthHistory"
+  ],
+  "usingComponents": {
+    "van-button": "/wxcomponents/vant/dist/button/index",
+    "van-notice-bar": "/wxcomponents/vant/dist/notice-bar/index",
+    "van-tag": "/wxcomponents/vant/dist/tag/index",
+    "van-search": "/wxcomponents/vant/dist/search/index",
+    "van-circle": "/wxcomponents/vant/dist/circle/index",
+    "van-rate": "/wxcomponents/vant/dist/rate/index",
+    "van-overlay": "/wxcomponents/vant/dist/overlay/index",
+    "van-dialog": "/wxcomponents/vant/dist/dialog/index",
+    "van-action-sheet": "/wxcomponents/vant/dist/action-sheet/index",
+    "van-transition": "/wxcomponents/vant/dist/transition/index",
+    "van-toast": "/wxcomponents/vant/dist/toast/index",
+    "van-calendar": "/wxcomponents/vant/dist/calendar/index",
+    "van-datetime-picker": "/wxcomponents/vant/dist/datetime-picker/index",
+    "van-image": "/wxcomponents/vant/dist/image/index",
+    "van-tab": "/wxcomponents/vant/dist/tab/index",
+    "van-tabs": "/wxcomponents/vant/dist/tabs/index",
+    "van-loading": "/wxcomponents/vant/dist/loading/index"
+  },
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#333",
+    "selectedColor": "#0055ff",
+    "backgroundColor": "#fff",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/home2.png",
+        "selectedIconPath": "static/home2.png"
+      },
+      {
+        "text": "疾病专区",
+        "pagePath": "pages/disease/disease",
+        "iconPath": "static/disease2.png",
+        "selectedIconPath": "static/disease2.png"
+      },
+      {
+        "text": "健康科普",
+        "pagePath": "pages/health/health",
+        "iconPath": "static/health2.png",
+        "selectedIconPath": "static/health2.png"
+      },
+      {
+        "text": "健康管理",
+        "pagePath": "pages/center/center",
+        "iconPath": "static/center2.png",
+        "selectedIconPath": "static/center2.png"
+      }
+    ]
+  },
+  "plugins": {
+    "WechatSI": {
+      "version": "0.3.4",
+      "provider": "wx069ba97219f66d99"
+    }
+  }
+}

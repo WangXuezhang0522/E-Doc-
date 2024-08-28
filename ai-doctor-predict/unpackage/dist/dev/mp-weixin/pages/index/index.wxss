@@ -1,0 +1,375 @@
+
+	/* 更改vant组件css样式 */
+page {
+		--notice-bar-height: 16rpx;
+		--notice-bar-padding: 32rpx;
+		--notice-bar-font-size: 26rpx;
+}
+	
+	/* 全局设置 */
+.overall {
+		position: relative;
+		background-color: #f8f8f8;
+		height: 3100rpx;
+		width: 100%;
+	    animation: overall 2s;
+}
+@keyframes overall{
+from{
+			opacity: 0;
+}
+to{
+			opacity: 1;
+}
+}
+/* 当用户未登录时禁止用户进行操作 */
+.banAction{
+	   top: 0;
+	   left: 0;
+	   background-color: rgba(0, 255, 127, 0.0);
+       position: absolute;
+	   width: 100%;
+	   height: 100%;
+}
+	/* 搜索框 */
+.search {
+		height: 64rpx;
+		width: 90%;
+		display: flex;
+		margin: 0px auto;
+}
+.search .font image {
+		margin-top: 6rpx;
+		width: 32rpx;
+		height: 32rpx;
+}
+.search input {
+		font-size: 28rpx;
+		margin-left: 12rpx;
+}
+.search .scan{
+		width: 38rpx;
+		height: 38rpx;
+		margin-left: 280rpx;
+		margin-top: 5rpx;
+}
+	/* 遮罩层样式设置 */
+.wrapper {
+		display: none;
+		position: fixed;
+		top: 200rpx;
+		left: 0;
+		z-index: 98;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		height: 2600rpx;
+}
+.block {
+		width: 730rpx;
+		height: 2900rpx;
+		transition: all 2s linear;
+}
+@keyframes blockAm {
+from {
+			background-color: rgba(22, 22, 22, 0.4);
+}
+to {
+			background-color: rgba(22, 22, 22, 0.9);
+}
+}
+
+
+	/* Ai问诊区域 */
+.ai {
+		display: flex;
+		justify-content: space-between;
+		height: 236rpx;
+		width: 708rpx;
+		margin: 20rpx auto;
+}
+
+	/* 设置盒子 */
+.ai .Interrogation .box,
+	.ai .psychology .box {
+		display: flex;
+		margin-left: 20rpx;
+		margin-top: 32rpx;
+}
+
+	/* ai问诊*/
+.ai .Interrogation {
+		width: 340rpx;
+		/* background-color: aqua; */
+		/* rgba(0, 255, 127, 0.1) */
+		background-image: linear-gradient(to bottom, rgba(0, 255, 127, 0.1), rgba(255, 255, 255, 1));
+		border-radius: 16rpx;
+}
+.ai .Interrogation .h1,
+	.ai .psychology .h1 {
+		font-size: 48rpx;
+		font-weight: 600;
+		letter-spacing: 4rpx
+}
+.ai .Interrogation .p,
+	.ai .psychology .p {
+		font-size: 24rpx;
+		color: #8c8c8c;
+		margin-top: 6rpx;
+		margin-bottom: 8rpx;
+}
+.ai .Interrogation .right .img {
+		height: 108rpx;
+		width: 120rpx;
+		margin-left: 16rpx;
+		margin-top: 20rpx;
+}
+
+	/* ai心理 */
+.ai .psychology {
+		width: 340rpx;
+		/* background-color: aqua; */
+		background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0.1), rgba(255, 255, 255, 1));
+		border-radius: 16rpx;
+}
+.ai .psychology .right .img {
+		height: 152rpx;
+		width: 140rpx;
+}
+
+	/* 轮播图 */
+.banner,
+	.banner image {
+		height: 320rpx;
+		width: 700rpx;
+		margin: auto;
+		border-radius: 16rpx;
+		background-size: contain;
+}
+
+	/* 健康+ */
+.health {
+		width: 700rpx;
+		height: 2120rpx;
+		margin: 30rpx auto;
+		/* background-color: #ffffff; */
+		border-radius: 12rpx;
+}
+
+	/* 头部区域 */
+.health .top {
+		font-size: 32rpx;
+		font-weight: 550;
+		margin-left: 12rpx;
+		margin-right: 10px;
+}
+.health .ul {
+		display: flex;
+		height: 600rpx;
+		flex-wrap: wrap;
+		margin-top: -4rpx;
+		width: 100%;
+}
+.health .ul .li {
+		display: flex;
+		width: 340rpx;
+		height: 180rpx;
+		margin-top: 16rpx;
+		background-image: linear-gradient(to bottom, rgba(0, 255, 255, 0.1), rgba(255, 255, 255, 1));
+		border-radius: 12rpx;
+}
+.health .ul .li:nth-child(2n) {
+		margin-left: 20rpx;
+}
+.health .ul .li .h1 {
+		font-size: 28rpx;
+		width: 100%;
+		font-weight: 550;
+		margin-top: 12rpx;
+		margin-left: 12rpx;
+}
+.health .ul .li .number {
+		font-weight: 560;
+		margin-top: 12rpx;
+		margin-left: 12rpx;
+		width: 200rpx;
+}
+.health .ul .li .p {
+		font-size: 24rpx;
+		margin-left: 12rpx;
+		margin-top: 12rpx;
+		color: #888888;
+}
+.health .ul .li .right {
+		width: 200rpx;
+}
+.health .ul .li .left {
+		display: flex;
+		flex-wrap: wrap;
+		width: 240rpx;
+		height: 80rpx;
+}
+.health .ul .li .right image {
+		height: 120rpx;
+		width: 120rpx;
+		margin-left: 18rpx;
+}
+
+	/* 综合评价区域 */
+.health .evaluation,
+	.health .sports,
+	.health .medical,
+	.health .food {
+		width: 100%;
+		height: 320rpx;
+		margin-top: 40rpx;
+		border-radius: 36rpx;
+		box-shadow: 0 0 4rpx #c1c1c1;
+}
+
+	/* 综合评价 */
+.health .evaluation .top {
+		font-size: 28rpx;
+		height: 16%;
+		width: 100%;
+		padding: 20rpx 0 0 0;
+		border-radius: 36rpx 36rpx 0% 0%;
+		margin-left: -1.2rpx;
+		background-image: linear-gradient(to right, rgba(81, 255, 7, 1.0), rgba(35, 255, 193, 1.0));
+		letter-spacing: 2rpx;
+		font-weight: 400;
+		color: #ffffff;
+}
+.health .evaluation .top .h1 {
+		margin-left: 24rpx;
+		font-weight: 550;
+}
+.health .evaluation .bottom,
+	.health .sports .bottom,
+	.health .food .bottom,
+	.health .medical .bottom {
+		height: 60%;
+		width: 90%;
+		margin: 20rpx auto;
+		font-size: 24rpx;
+		color: #4f4f4f;
+		line-height: 1.6;
+		font-weight: 550;
+}
+
+	/* 运动建议 */
+.health .sports .top {
+		font-size: 28rpx;
+		height: 16%;
+		width: 100%;
+		padding: 20rpx 0 0 0;
+		border-radius: 36rpx 36rpx 0% 0%;
+		margin-left: -1.2rpx;
+		background-image: linear-gradient(to right, rgba(255, 179, 55, 1.0), rgba(220, 255, 44, 1.0));
+		letter-spacing: 2rpx;
+		font-weight: 400;
+		color: #ffffff;
+}
+.health .sports .top .h1 {
+		margin-left: 24rpx;
+		font-weight: 550;
+}
+
+	/* 饮食建议 */
+.health .food .top {
+		font-size: 28rpx;
+		height: 16%;
+		width: 100%;
+		padding: 20rpx 0 0 0;
+		border-radius: 36rpx 36rpx 0% 0%;
+		margin-left: -1.2rpx;
+		background-image: linear-gradient(to right, rgba(255, 170, 127, 1.0), rgba(255, 46, 19, 1.0));
+		letter-spacing: 2rpx;
+		font-weight: 400;
+		color: #ffffff;
+}
+.health .food .top .h1 {
+		margin-left: 24rpx;
+		font-weight: 550;
+}
+
+	/* 医疗建议 */
+.health .medical .top {
+		font-size: 28rpx;
+		height: 16%;
+		width: 100%;
+		padding: 20rpx 0 0 0;
+		border-radius: 36rpx 36rpx 0% 0%;
+		margin-left: -1.2rpx;
+		background-image: linear-gradient(to right, rgba(29, 255, 229, 1.0), rgba(24, 143, 255, 1.0));
+		letter-spacing: 2rpx;
+		font-weight: 400;
+		color: #ffffff;
+}
+.health .medical .top .h1 {
+		margin-left: 24rpx;
+		font-weight: 550;
+}
+
+	/* 更多内容 */
+.more {
+		height: 32rpx;
+		width: 100%;
+}
+.more .p {
+		width: 50%;
+		margin: 20rpx auto;
+		text-align: center;
+		font-size: 24rpx;
+}
+	/* 吃药提醒区域 */
+.medicine{
+		position: relative;
+		width: 94%;
+		height: 120rpx;
+		border-radius: 20rpx;
+		margin: 0 auto;
+	    margin-top: 12rpx;
+		
+        background-image: linear-gradient(120deg, rgba(0, 170, 255, 0.2) 0%, rgba(0, 85, 255, 0.2) 100%);
+}
+.medicine .left{
+		position: absolute;
+		width: 120rpx;
+		height: 120rpx;
+	    left: 1%;
+}
+.medicine .p{
+		position: absolute;
+		color: #000000;
+		top: 16%;
+		left: 20%;
+		font-size: 36rpx;
+		font-style:italic;
+		letter-spacing: 2rpx;
+		font-family: WenQuanYi Micro Hei;
+}
+.medicine .tips{
+		position: absolute;
+		font-size: 24rpx;
+		color: #0000ff;
+		font-style:italic;
+		top: 58%;
+		left: 20%;
+}
+.medicine .toRight{
+		position: absolute;
+		right: 0%;
+		top: 14%;
+		width: 120rpx;
+		height: 80rpx;
+}
+	
+	/* 优化区域 */
+	/* 搜索加载 */
+.searchLoad{
+		position: absolute;
+		z-index: 99;
+		top: 14%;
+		left: 43%;
+}

@@ -1,0 +1,53 @@
+
+.top {
+		font-size: 24rpx;
+		width: 200rpx;
+		margin-left: 304rpx;
+		color: rgba(47, 47, 47, 0.5);
+		margin-top: 40rpx;
+		margin-bottom: -100rpx;
+}
+
+
+	/* 	.avatar-wrapper {
+		height: 100px;
+		margin: auto;
+	    background-size: 20px;
+		width: 120px;
+		border: 10px soild black;
+		border-radius: 12px;
+	} */
+.avatar-wrapper {
+		margin-top: 120rpx;
+}
+.nickname-wrap {
+		display: flex;
+		width: 400rpx;
+		margin-left: 56rpx;
+		margin-top: 40rpx;
+}
+.title {
+		width: 120rpx;
+}
+.sumbit {
+		margin-top: 80rpx;
+		width: 160rpx;
+		height: 80rpx;
+		line-height: 200rpx;
+		text-align: center;
+
+		font-size: 48rpx;
+		color: #fff;
+		/* 渐变背景 */
+		background: linear-gradient(to right, rgba(0, 85, 255, 0.7), rgba(255, 255, 255, 0.1));
+		/* 背景渐变色大小 */
+		background-size: 400%;
+		/* 圆角 */
+		border-radius: 20rpx;
+}
+.text {
+		display: block;
+		margin-top: -60rpx;
+		color: #000000;
+		font-size: 28rpx;
+}

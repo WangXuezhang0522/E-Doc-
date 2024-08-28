@@ -1,0 +1,121 @@
+
+.tips {
+		text-align: center;
+		font-size: 28rpx;
+		margin: 0rpx auto;
+}
+.tips .p {
+		margin-top: 12rpx;
+		color: #5d5d5d;
+		letter-spacing: 1rpx;
+}
+.content {
+		width: 96%;
+		height: 100%;
+		font-family: 宋体;
+		margin: 0rpx auto;
+		margin-top: 12rpx;
+		font-size: 40rpx;
+		background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0.1), rgba(255, 170, 255, 0.15));
+}
+#img {
+		width: 60rpx;
+		height: 60rpx;
+}
+.conversation {
+		width: 100%;
+		margin-top: 0vmax;
+		height: 87vmax;
+		border-radius: 15rpx;
+		/* border: 1rpx solid #00aaff; */
+		/* background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0.1), rgba(255, 170, 255,0.15)); */
+		/* background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0.1), rgba(255, 255, 255, 1)); */
+		overflow-y: scroll;
+}
+.user-message {
+		margin-left: 128rpx;
+		display: flex;
+		min-height: 80rpx;
+		min-width: 20%;
+		margin-right: 24rpx;
+		color: rgba(72, 72, 72, 0.9);
+		justify-content: flex-end;
+}
+.usertext {
+		padding: 16rpx;
+		border-radius: 20rpx;
+		font-family: STXinwei;
+		font-size: 32rpx;
+		font-weight: 400;
+		letter-spacing: 0.8rpx;
+		margin-top: 20rpx;
+		background-color: rgba(255, 15, 31, 0.3);
+}
+.robot-message {
+		display: flex;
+		justify-content: flex-start;
+		margin-top: 16rpx;
+		margin-left: 12rpx;
+}
+.robottext {
+		background-color: #ffffff;
+		width: 70%;
+		margin-left: 6rpx;
+		margin-top: 4rpx;
+		font-family: STXinwei;
+		font-size: 32rpx;
+		padding: 16rpx;
+		border-radius: 20rpx;
+}
+.formbox {
+		/* margin-top: 10rpx; */
+		height: 160rpx;
+		width: 100%;
+
+		background-color: #ffffff;
+		border-radius: 10rpx;
+}
+
+	/* 边框 */
+.formbox .box {
+		display: flex;
+		align-items: center;
+		height: 100rpx;
+		width: 98%;
+		margin: 0px auto;
+		border-radius: 16rpx;
+		background-color: #ffffff;
+		/* background-color: rgba(255, 0, 0, 0.1); */
+		/* border-radius: 40upx; */
+		/* border: 6upx solid rgba(255, 0, 0, 0.4); */
+}
+#text {
+		font-size: 36rpx;
+		font-family: STXinwei;
+		width: 80%;
+		height: 60rpx;
+		padding: 20rpx;
+}
+#btn {
+		display: block;
+		border-radius: 36rpx;
+		font-family: STXinwei;
+		width: 140rpx;
+		height: 80rpx;
+		background-color: rgba(255, 0, 0, 0.5);
+		line-height: 2.2;
+		margin-right: 20rpx;
+}
+.vant-heart {
+		margin-left: 70rpx;
+}
+.hidden-audio {
+		display: none;
+}
+	/* 搜索加载 */
+.searchLoad {
+		position: absolute;
+		z-index: 99;
+		top: 30%;
+		left: 36%;
+}

@@ -1,0 +1,1 @@
+<view class="main"><view class="container"><image class="avatar" src="/static/男医生-面.png"></image><text class="motto">大模型智能疾病预测</text></view><van-loading wx:if="{{r0}}" class="searchLoad" u-t="m" u-i="3d3960d8-0" bind:__l="__l" u-p="{{a}}"></van-loading></view>

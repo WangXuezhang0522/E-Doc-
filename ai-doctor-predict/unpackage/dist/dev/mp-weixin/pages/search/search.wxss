@@ -1,0 +1,51 @@
+
+	/* 全局设置 */
+.overall {
+		background-color: #f8f8f8;
+		width: 100%;
+}
+
+/* 搜索框 */
+.search {
+		height: 64rpx;
+		width: 90%;
+		display: flex;
+		margin: 0px auto;
+}
+.search .font image {
+		margin-top: 6rpx;
+		width: 32rpx;
+		height: 32rpx;
+}
+.search input {
+		font-size: 28rpx;
+		margin-left: 12rpx;
+}
+
+	/* 打印效果 */
+@keyframes typing {
+from {
+			width: 0;
+}
+to {
+			width: 21em;
+}
+}
+
+	/* 光标 */
+@keyframes blink-caret {
+from,
+		to {
+			border-color: transparent;
+}
+50% {
+			border-color: currentColor;
+}
+}
+.searchText {
+		/* 		background-image: linear-gradient(to bottom, rgba(0, 255, 255, 0.1), rgba(0, 85, 255, 0.2)); */
+		width: 92%;
+		margin: auto;
+		text-indent: 2em;
+		animation: typing 3s steps(60, end), blink-caret .75s step-end infinite;
+}

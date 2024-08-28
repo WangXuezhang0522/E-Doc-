@@ -1,0 +1,44 @@
+
+.right {
+		display: flex;
+		justify-content: flex-end;
+}
+#img {
+		width: 60rpx;
+		height: 60rpx;
+}
+.left {
+		display: flex;
+		justify-content: flex-start;
+}
+.right .message {
+		padding: 10rpx;
+		border-radius: 10rpx;
+		background-color: #ffffff;
+		width: 80%;
+		margin-top: 5rpx;
+}
+.left .message {
+		background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0.1), rgba(255, 255, 255, 1));
+		width: 80%;
+		padding: 10rpx;
+		border-radius: 10rpx;
+		margin-top: 5rpx;
+}
+.conversation {
+		width: 100%;
+		margin-top: 0vmax;
+		height: 87vmax;
+		border-radius: 15rpx;
+		/* border: 1rpx solid #00aaff; */
+		background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0.1), rgba(255, 255, 255, 1));
+		overflow-y: scroll
+}
+.btn{
+	/* 	position: absolute;
+		bottom: 0px;
+		display: block; */
+		position: absolute;
+		bottom: 0rpx;
+		width: 100%;
+}
