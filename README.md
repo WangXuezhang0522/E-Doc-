@@ -2,7 +2,7 @@
 ## 介绍
 e-doc小程序是一款基于大语言模型的辅助疾病预测与健康管理工具。包含智能问诊、心理支持、疾病科普和健康管理等模块.
 ## 效果图
-<img height="200" src="https://github.com/WangXuezhang0522/picture-Repository/blob/main/image/%E5%9B%BE%E7%89%877.png?raw=true"><img height="200" src="https://github.com/WangXuezhang0522/picture-Repository/blob/main/image/%E5%9B%BE%E7%89%878.png?raw=true"><img height="200" src="https://github.com/WangXuezhang0522/picture-Repository/blob/main/image/%E5%9B%BE%E7%89%879.png?raw=true"><img height="200" src="https://github.com/WangXuezhang0522/picture-Repository/blob/main/image/%E5%9B%BE%E7%89%8710.png?raw=true">
+<img height="200" src="https://github.com/WangXuezhang0522/image/blob/main/%E5%9B%BE%E5%BA%8A/%E5%9B%BE%E7%89%877.png?raw=true"><img height="200" src="https://github.com/WangXuezhang0522/image/blob/main/%E5%9B%BE%E5%BA%8A/%E5%9B%BE%E7%89%878.png?raw=true"><img height="200" src="https://github.com/WangXuezhang0522/image/blob/main/%E5%9B%BE%E5%BA%8A/%E5%9B%BE%E7%89%879.png?raw=true"><img height="200" src="https://github.com/WangXuezhang0522/image/blob/main/%E5%9B%BE%E5%BA%8A/%E5%9B%BE%E7%89%8710.png?raw=true">
 
 ## 实现思路
 核心组件
